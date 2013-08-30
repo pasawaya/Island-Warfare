@@ -7,6 +7,7 @@
 //
 
 #import "PSViewController.h"
+#import "PSIslandMapView.h"
 
 @interface PSViewController ()
 
@@ -14,16 +15,17 @@
 
 @implementation PSViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    PSIslandMapView *map = [[PSIslandMapView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:map];
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+    //Code
 }
 
 @end
