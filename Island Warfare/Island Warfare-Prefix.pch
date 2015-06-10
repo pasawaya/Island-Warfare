@@ -11,6 +11,126 @@
 #endif
 
 #ifdef __OBJC__
+    //Default Imports
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+    //Custom Imports
+    #import "UIImage+Utilities.h"
 #endif
+
+/*Custom log function that prints the file, line, 
+   and method from which it's called in addition
+   to the arguments the user passes in. */
+#ifdef DEBUG
+#define PSLog(FORMAT, ...) do{fprintf(stderr,"File:       %s\nLine:       %d\nFunction:   %s\nTime:       %s\nInfo:       %s\n", [[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, __PRETTY_FUNCTION__, __TIME__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);} while(0)
+#endif
+
+#pragma mark -
+#pragma mark Application-Wide UI Info
+#define FONT_NORMAL     @"HelveticaNeue"
+#define FONT_BOLD       @"HelveticaNeue-Medium"
+#define FONT_LIGHT      @"HelveticaNeue-Light"
+#define FONT_THIN      @"HelveticaNeue-Thin"
+#define UI_RED          (120.0f/255.0f)
+#define UI_GREEN        (141.0f/255.0f)
+#define UI_BLUE         (212.0f/255.0f)
+#define UI_DETAIL_RED   (80.0f/255.0f)
+#define UI_DETAIL_GREEN (210.0f/255.0f)
+#define UI_DETAIL_BLUE  (255.0f/255.0f)
+
+#pragma mark -
+#pragma mark Coordinate Information
+static const float kScreenHeight = 320.0f;
+static const float kScreenWidth  = 568.0f;
+static const float kUnitHeight   = 1.0f;
+static const float kUnitWidth    = 1.0f;
+static const float kUnitsUp      = kScreenHeight/kUnitHeight;
+static const float kUnitsAcross  = kScreenWidth/kUnitWidth;
+
+#pragma mark -
+#pragma mark Island Mask
+static const float kIslandMaskCenterXOffset = 24.0f;
+static const float kIslandMaskCenterYOffset = 24.0f;
+
+#pragma mark -
+#pragma mark Fractional Brownian Noise Noise
+static const NSUInteger kFBMOctaveCount = 6;     //Values tweaked experimentally,
+static const float      kFBMNoiseScale  = 26.0f; //they're not really of any
+static const float      kFBMFrequency   = 20.0f; //signifiance.
+static const float      kFBMPersistence = 0.63f;
+static const float      kPi             = 3.1415927f;
+
+#pragma mark -
+#pragma mark Info Bar
+static       NSString *kYearLabelFontName = FONT_THIN;
+static const float kInfoBarHeight         = 30.0f;
+static const float kYearUpdateInterval    = 1.0f;
+static const float kYearLabelSize         = 18.0f;
+static const float kInfoBarRed            = UI_RED;
+static const float kInfoBarGreen          = UI_GREEN;
+static const float kInfoBarBlue           = UI_BLUE;
+static const float kInfoBarTextRed        = UI_DETAIL_RED;
+static const float kInfoBarTextGreen      = UI_DETAIL_GREEN;
+static const float kInfoBarTextBlue       = UI_DETAIL_BLUE;
+
+#pragma mark -
+#pragma mark Grid
+static const NSUInteger kGridNumHorizontalLines = 36; //Ratio between horizontalLines and verticalLines
+static const NSUInteger kGridNumVerticalLines   = 66; //is equal to that between screenWidth and screenHeight
+static const float      kGridAnimationDuration  = 0.3f;
+
+#pragma mark -
+#pragma mark Chat Tableview
+static       NSString *kChatCellReuseIdentifier = @"blah_123";
+static       NSString *kChatTableViewFontName   = FONT_LIGHT;
+static const float kChatTableViewOpacity        = 0.8f;
+static const float kChatTableViewCellPadding    = 10.0f;
+static const float kChatTableViewTextSize       = 10.0f;
+
+#pragma mark -
+#pragma mark Toolbar
+static const float kToolbarWidth             = 40.0f;
+static const float kToolbarRed               = UI_RED;
+static const float kToolbarGreen             = UI_GREEN;
+static const float kToolbarBlue              = UI_BLUE;
+static const float kToolbarAnimationDuration = 0.4f;
+static const float kToolbarNumberofButtons   = 5;
+
+#pragma mark -
+#pragma mark Toolbar Button
+static const float kToolbarButtonHeight    = kScreenHeight/kToolbarNumberofButtons;
+static const float kToolbarButtonRed       = UI_DETAIL_RED;
+static const float kToolbarButtonGreen     = UI_DETAIL_GREEN;
+static const float kToolbarButtonBlue      = UI_DETAIL_BLUE;
+static const float kToolbarFontSize        = 13.0f;
+static const NSString *kToolbarFontName    = FONT_LIGHT;
+
+#pragma mark -
+#pragma mark Toolbar Button Tags
+typedef NS_ENUM(NSInteger, PSButtonTag) {
+    PSButtonTagUnknown     = -1,
+    PSButtonTagHome        = 0,
+    PSButtonTagChat        = 1,
+    PSButtonTagLeaderboard = 2,
+    PSButtonTagSettings    = 3,
+    PSButtonTagMarket      = 4
+};
+
+#pragma mark -
+#pragma mark Terrain Types
+typedef NS_ENUM(NSInteger, PSTerrainType) {
+    PSTerrainTypeUnknown       = -1,
+    PSTerrainTypeDeepWater     = 0,
+    PSTerrainTypeMediumWater   = 1,
+    PSTerrainTypeShallowWater  = 2,
+    PSTerrainTypeBeach         = 3,
+    PSTerrainTypeLowGrass      = 4,
+    PSTerrainTypeMediumGrass   = 5,
+    PSTerrainTypeForest        = 6,
+    PSTerrainTypeLightRock     = 7,
+    PSTerrainTypeMediumRock    = 8,
+    PSTerrainTypeDarkRock      = 9,
+    PSTerrainTypeSnow          = 10,
+    PSTerrainTypeNumberOfTypes = 11
+};

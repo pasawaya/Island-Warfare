@@ -10,10 +10,6 @@
 
 @interface PSFractionalBrownianNoise : NSObject
 
-//Returns a PSFractionalBrownianNoise object with default values
-+(instancetype)noiseGeneratorWithSeed: (NSInteger)seed;
-
-//Returns the noise value for the given coordinates
--(double)noise2ForX: (double)x y: (double)y;
+float noise2(float x, float y, float seed);
 
 @end

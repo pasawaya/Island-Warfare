@@ -10,6 +10,6 @@
 
 @interface PSBlendMode : NSObject
 
-+(double)vividLightBlendBetweenBase: (double)base andBlend: (double)blend;
+float blend(float base, float blend);
 
 @end

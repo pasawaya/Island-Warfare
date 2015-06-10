@@ -116,7 +116,7 @@
 	<key>beach</key>
 	<dict>
 		<key>upper_elevation_threshold</key>
-		<string>0.46</string>
+		<string>0.44</string>
 		<key>general_terrain_type</key>
 		<string>water</string>
 		<key>underground_mineral_content</key>
@@ -361,7 +361,7 @@
 			<string>0.2</string>
 		</dict>
 		<key>upper_elevation_threshold</key>
-		<string>0.97</string>
+		<string>0.99</string>
 		<key>color</key>
 		<dict>
 			<key>red</key>

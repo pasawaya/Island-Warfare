@@ -11,7 +11,6 @@
 @interface PSPropertyListDataFetcher : NSObject
 
 +(instancetype)sharedDataFetcherWithTarget: (NSString *)target;
-
 -(NSString *)elementWithPath: (NSString *)path;
 
 @end

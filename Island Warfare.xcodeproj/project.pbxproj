@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3742BCEB1B1C0FFE000438FC /* PSChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742BCEA1B1C0FFE000438FC /* PSChatMessage.m */; };
+		3742BCEE1B1C1076000438FC /* PSChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3742BCED1B1C1076000438FC /* PSChatTableViewCell.m */; };
+		375155D01B1CE69400CDB8D0 /* PSTerrainMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 375155CF1B1CE69400CDB8D0 /* PSTerrainMap.m */; };
+		375155D21B1CEAAD00CDB8D0 /* Terrain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 375155D11B1CEAAD00CDB8D0 /* Terrain.plist */; };
+		375155D51B1CEB5C00CDB8D0 /* PSMapUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 375155D41B1CEB5C00CDB8D0 /* PSMapUnit.m */; };
 		377C1D8017D12D7C00AAEA79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C1D7F17D12D7C00AAEA79 /* Foundation.framework */; };
 		377C1D8217D12D7C00AAEA79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C1D8117D12D7C00AAEA79 /* CoreGraphics.framework */; };
 		377C1D8417D12D7C00AAEA79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C1D8317D12D7C00AAEA79 /* UIKit.framework */; };
@@ -21,13 +26,25 @@
 		377C1DA117D12D7C00AAEA79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377C1D8317D12D7C00AAEA79 /* UIKit.framework */; };
 		377C1DA917D12D7D00AAEA79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 377C1DA717D12D7D00AAEA79 /* InfoPlist.strings */; };
 		377C1DAB17D12D7D00AAEA79 /* Island_WarfareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C1DAA17D12D7D00AAEA79 /* Island_WarfareTests.m */; };
-		377C1DB917D12E2C00AAEA79 /* PSFractionalBrownianNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C1DB617D12E2C00AAEA79 /* PSFractionalBrownianNoise.m */; };
-		377C1DBA17D12E2C00AAEA79 /* PSIslandMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C1DB817D12E2C00AAEA79 /* PSIslandMask.m */; };
-		377C1DC217D12EAA00AAEA79 /* PSIslandMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C1DC117D12EAA00AAEA79 /* PSIslandMapView.m */; };
-		377C1DC517D132E800AAEA79 /* PSBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C1DC417D132E800AAEA79 /* PSBlendMode.m */; };
-		377C1DC817D133D100AAEA79 /* PSIslandMapUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C1DC717D133D100AAEA79 /* PSIslandMapUnit.m */; };
+		377C1DC217D12EAA00AAEA79 /* PSTerrainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C1DC117D12EAA00AAEA79 /* PSTerrainView.m */; };
+		377C1DC817D133D100AAEA79 /* PSTerrainUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C1DC717D133D100AAEA79 /* PSTerrainUnit.m */; };
 		377C1DCB17D1344700AAEA79 /* PSPropertyListDataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C1DCA17D1344700AAEA79 /* PSPropertyListDataFetcher.m */; };
-		377C1DCD17D134CA00AAEA79 /* Terrain.plist in Resources */ = {isa = PBXBuildFile; fileRef = 377C1DCC17D134CA00AAEA79 /* Terrain.plist */; };
+		3786A6761B1BDB33001A685D /* PSFractionalBrownianNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = 3786A6711B1BDB33001A685D /* PSFractionalBrownianNoise.m */; };
+		3786A6771B1BDB33001A685D /* PSIslandMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3786A6731B1BDB33001A685D /* PSIslandMask.m */; };
+		3786A6781B1BDB33001A685D /* PSBlendMode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3786A6751B1BDB33001A685D /* PSBlendMode.m */; };
+		3786A67D1B1BDC73001A685D /* PSTerrainDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3786A67C1B1BDC73001A685D /* PSTerrainDataManager.m */; };
+		378909DE1B1C0586000A1852 /* PSGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 378909DD1B1C0586000A1852 /* PSGridView.m */; };
+		379A74891B1BF26C00833DA6 /* PSToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A74881B1BF26C00833DA6 /* PSToolbar.m */; };
+		379A748C1B1BF4B500833DA6 /* PSToolbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A748B1B1BF4B500833DA6 /* PSToolbarButton.m */; };
+		379A74921B1BF6AB00833DA6 /* Market.png in Resources */ = {isa = PBXBuildFile; fileRef = 379A748D1B1BF6AB00833DA6 /* Market.png */; };
+		379A74931B1BF6AB00833DA6 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 379A748E1B1BF6AB00833DA6 /* Home.png */; };
+		379A74941B1BF6AB00833DA6 /* Leaderboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 379A748F1B1BF6AB00833DA6 /* Leaderboard.png */; };
+		379A74951B1BF6AB00833DA6 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 379A74901B1BF6AB00833DA6 /* Settings.png */; };
+		379A74961B1BF6AB00833DA6 /* Chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 379A74911B1BF6AB00833DA6 /* Chat.png */; };
+		379A749B1B1BF7B500833DA6 /* UIImage+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A749A1B1BF7B500833DA6 /* UIImage+Utilities.m */; };
+		379A749F1B1BFE4800833DA6 /* PSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A749E1B1BFE4800833DA6 /* PSChatViewController.m */; };
+		379A74A21B1BFE5100833DA6 /* PSSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A74A11B1BFE5100833DA6 /* PSSettingsViewController.m */; };
+		379A74A51B1BFE6200833DA6 /* PSMarketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A74A41B1BFE6200833DA6 /* PSMarketView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +58,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3742BCE91B1C0FFE000438FC /* PSChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSChatMessage.h; path = Chat/PSChatMessage.h; sourceTree = "<group>"; };
+		3742BCEA1B1C0FFE000438FC /* PSChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSChatMessage.m; path = Chat/PSChatMessage.m; sourceTree = "<group>"; };
+		3742BCEC1B1C1076000438FC /* PSChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSChatTableViewCell.h; path = Chat/PSChatTableViewCell.h; sourceTree = "<group>"; };
+		3742BCED1B1C1076000438FC /* PSChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSChatTableViewCell.m; path = Chat/PSChatTableViewCell.m; sourceTree = "<group>"; };
+		375155CE1B1CE69400CDB8D0 /* PSTerrainMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSTerrainMap.h; path = Terrain/Model/PSTerrainMap.h; sourceTree = "<group>"; };
+		375155CF1B1CE69400CDB8D0 /* PSTerrainMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSTerrainMap.m; path = Terrain/Model/PSTerrainMap.m; sourceTree = "<group>"; };
+		375155D11B1CEAAD00CDB8D0 /* Terrain.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Terrain.plist; path = Terrain/Terrain.plist; sourceTree = "<group>"; };
+		375155D31B1CEB5C00CDB8D0 /* PSMapUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSMapUnit.h; path = "Terrain/Map Units/PSMapUnit.h"; sourceTree = "<group>"; };
+		375155D41B1CEB5C00CDB8D0 /* PSMapUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSMapUnit.m; path = "Terrain/Map Units/PSMapUnit.m"; sourceTree = "<group>"; };
 		377C1D7C17D12D7C00AAEA79 /* Island Warfare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island Warfare.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		377C1D7F17D12D7C00AAEA79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		377C1D8117D12D7C00AAEA79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -49,30 +75,50 @@
 		377C1D8917D12D7C00AAEA79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		377C1D8B17D12D7C00AAEA79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		377C1D8D17D12D7C00AAEA79 /* Island Warfare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Island Warfare-Prefix.pch"; sourceTree = "<group>"; };
-		377C1D8E17D12D7C00AAEA79 /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
-		377C1D8F17D12D7C00AAEA79 /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		377C1D8E17D12D7C00AAEA79 /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PSAppDelegate.h; path = "View Controllers/PSAppDelegate.h"; sourceTree = "<group>"; };
+		377C1D8F17D12D7C00AAEA79 /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PSAppDelegate.m; path = "View Controllers/PSAppDelegate.m"; sourceTree = "<group>"; };
 		377C1D9217D12D7C00AAEA79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		377C1D9417D12D7C00AAEA79 /* PSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSViewController.h; sourceTree = "<group>"; };
-		377C1D9517D12D7C00AAEA79 /* PSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSViewController.m; sourceTree = "<group>"; };
+		377C1D9417D12D7C00AAEA79 /* PSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PSViewController.h; path = "View Controllers/PSViewController.h"; sourceTree = "<group>"; };
+		377C1D9517D12D7C00AAEA79 /* PSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PSViewController.m; path = "View Controllers/PSViewController.m"; sourceTree = "<group>"; };
 		377C1D9717D12D7C00AAEA79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		377C1D9D17D12D7C00AAEA79 /* Island WarfareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Island WarfareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		377C1D9E17D12D7C00AAEA79 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		377C1DA617D12D7D00AAEA79 /* Island WarfareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Island WarfareTests-Info.plist"; sourceTree = "<group>"; };
 		377C1DA817D12D7D00AAEA79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		377C1DAA17D12D7D00AAEA79 /* Island_WarfareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Island_WarfareTests.m; sourceTree = "<group>"; };
-		377C1DB517D12E2C00AAEA79 /* PSFractionalBrownianNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSFractionalBrownianNoise.h; sourceTree = "<group>"; };
-		377C1DB617D12E2C00AAEA79 /* PSFractionalBrownianNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSFractionalBrownianNoise.m; sourceTree = "<group>"; };
-		377C1DB717D12E2C00AAEA79 /* PSIslandMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSIslandMask.h; sourceTree = "<group>"; };
-		377C1DB817D12E2C00AAEA79 /* PSIslandMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSIslandMask.m; sourceTree = "<group>"; };
-		377C1DC017D12EAA00AAEA79 /* PSIslandMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSIslandMapView.h; sourceTree = "<group>"; };
-		377C1DC117D12EAA00AAEA79 /* PSIslandMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSIslandMapView.m; sourceTree = "<group>"; };
-		377C1DC317D132E800AAEA79 /* PSBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSBlendMode.h; sourceTree = "<group>"; };
-		377C1DC417D132E800AAEA79 /* PSBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSBlendMode.m; sourceTree = "<group>"; };
-		377C1DC617D133D100AAEA79 /* PSIslandMapUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSIslandMapUnit.h; sourceTree = "<group>"; };
-		377C1DC717D133D100AAEA79 /* PSIslandMapUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSIslandMapUnit.m; sourceTree = "<group>"; };
-		377C1DC917D1344700AAEA79 /* PSPropertyListDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPropertyListDataFetcher.h; sourceTree = "<group>"; };
-		377C1DCA17D1344700AAEA79 /* PSPropertyListDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSPropertyListDataFetcher.m; sourceTree = "<group>"; };
-		377C1DCC17D134CA00AAEA79 /* Terrain.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Terrain.plist; sourceTree = "<group>"; };
+		377C1DC017D12EAA00AAEA79 /* PSTerrainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSTerrainView.h; path = Terrain/PSTerrainView.h; sourceTree = "<group>"; };
+		377C1DC117D12EAA00AAEA79 /* PSTerrainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSTerrainView.m; path = Terrain/PSTerrainView.m; sourceTree = "<group>"; };
+		377C1DC617D133D100AAEA79 /* PSTerrainUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSTerrainUnit.h; path = "Terrain/Map Units/PSTerrainUnit.h"; sourceTree = "<group>"; };
+		377C1DC717D133D100AAEA79 /* PSTerrainUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSTerrainUnit.m; path = "Terrain/Map Units/PSTerrainUnit.m"; sourceTree = "<group>"; };
+		377C1DC917D1344700AAEA79 /* PSPropertyListDataFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSPropertyListDataFetcher.h; path = Utilities/PSPropertyListDataFetcher.h; sourceTree = "<group>"; };
+		377C1DCA17D1344700AAEA79 /* PSPropertyListDataFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSPropertyListDataFetcher.m; path = Utilities/PSPropertyListDataFetcher.m; sourceTree = "<group>"; };
+		3786A6701B1BDB33001A685D /* PSFractionalBrownianNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSFractionalBrownianNoise.h; path = "Map Generation/PSFractionalBrownianNoise.h"; sourceTree = "<group>"; };
+		3786A6711B1BDB33001A685D /* PSFractionalBrownianNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSFractionalBrownianNoise.m; path = "Map Generation/PSFractionalBrownianNoise.m"; sourceTree = "<group>"; };
+		3786A6721B1BDB33001A685D /* PSIslandMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSIslandMask.h; path = "Map Generation/PSIslandMask.h"; sourceTree = "<group>"; };
+		3786A6731B1BDB33001A685D /* PSIslandMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSIslandMask.m; path = "Map Generation/PSIslandMask.m"; sourceTree = "<group>"; };
+		3786A6741B1BDB33001A685D /* PSBlendMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSBlendMode.h; path = "Map Generation/PSBlendMode.h"; sourceTree = "<group>"; };
+		3786A6751B1BDB33001A685D /* PSBlendMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSBlendMode.m; path = "Map Generation/PSBlendMode.m"; sourceTree = "<group>"; };
+		3786A67B1B1BDC73001A685D /* PSTerrainDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSTerrainDataManager.h; path = Terrain/Model/PSTerrainDataManager.h; sourceTree = "<group>"; };
+		3786A67C1B1BDC73001A685D /* PSTerrainDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSTerrainDataManager.m; path = Terrain/Model/PSTerrainDataManager.m; sourceTree = "<group>"; };
+		378909DC1B1C0586000A1852 /* PSGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSGridView.h; path = Controls/PSGridView.h; sourceTree = "<group>"; };
+		378909DD1B1C0586000A1852 /* PSGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSGridView.m; path = Controls/PSGridView.m; sourceTree = "<group>"; };
+		379A74871B1BF26C00833DA6 /* PSToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSToolbar.h; path = Controls/PSToolbar.h; sourceTree = "<group>"; };
+		379A74881B1BF26C00833DA6 /* PSToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSToolbar.m; path = Controls/PSToolbar.m; sourceTree = "<group>"; };
+		379A748A1B1BF4B500833DA6 /* PSToolbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSToolbarButton.h; path = Controls/PSToolbarButton.h; sourceTree = "<group>"; };
+		379A748B1B1BF4B500833DA6 /* PSToolbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSToolbarButton.m; path = Controls/PSToolbarButton.m; sourceTree = "<group>"; };
+		379A748D1B1BF6AB00833DA6 /* Market.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Market.png; path = Resources/Market.png; sourceTree = "<group>"; };
+		379A748E1B1BF6AB00833DA6 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = Resources/Home.png; sourceTree = "<group>"; };
+		379A748F1B1BF6AB00833DA6 /* Leaderboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Leaderboard.png; path = Resources/Leaderboard.png; sourceTree = "<group>"; };
+		379A74901B1BF6AB00833DA6 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Settings.png; path = Resources/Settings.png; sourceTree = "<group>"; };
+		379A74911B1BF6AB00833DA6 /* Chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chat.png; path = Resources/Chat.png; sourceTree = "<group>"; };
+		379A74991B1BF7B500833DA6 /* UIImage+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Utilities.h"; path = "Categories/UIImage+Utilities.h"; sourceTree = "<group>"; };
+		379A749A1B1BF7B500833DA6 /* UIImage+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Utilities.m"; path = "Categories/UIImage+Utilities.m"; sourceTree = "<group>"; };
+		379A749D1B1BFE4800833DA6 /* PSChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSChatViewController.h; path = "Menu Item Views/PSChatViewController.h"; sourceTree = "<group>"; };
+		379A749E1B1BFE4800833DA6 /* PSChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSChatViewController.m; path = "Menu Item Views/PSChatViewController.m"; sourceTree = "<group>"; };
+		379A74A01B1BFE5100833DA6 /* PSSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSSettingsViewController.h; path = "Menu Item Views/PSSettingsViewController.h"; sourceTree = "<group>"; };
+		379A74A11B1BFE5100833DA6 /* PSSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSSettingsViewController.m; path = "Menu Item Views/PSSettingsViewController.m"; sourceTree = "<group>"; };
+		379A74A31B1BFE6200833DA6 /* PSMarketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSMarketView.h; path = "Menu Item Views/PSMarketView.h"; sourceTree = "<group>"; };
+		379A74A41B1BFE6200833DA6 /* PSMarketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSMarketView.m; path = "Menu Item Views/PSMarketView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +145,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3742BCE81B1C0FD0000438FC /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				3742BCE91B1C0FFE000438FC /* PSChatMessage.h */,
+				3742BCEA1B1C0FFE000438FC /* PSChatMessage.m */,
+				3742BCEC1B1C1076000438FC /* PSChatTableViewCell.h */,
+				3742BCED1B1C1076000438FC /* PSChatTableViewCell.m */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		375155D91B1CEC5D00CDB8D0 /* Map Units */ = {
+			isa = PBXGroup;
+			children = (
+				375155D31B1CEB5C00CDB8D0 /* PSMapUnit.h */,
+				375155D41B1CEB5C00CDB8D0 /* PSMapUnit.m */,
+				377C1DC617D133D100AAEA79 /* PSTerrainUnit.h */,
+				377C1DC717D133D100AAEA79 /* PSTerrainUnit.m */,
+			);
+			name = "Map Units";
+			sourceTree = "<group>";
+		};
+		375155DA1B1CEC6700CDB8D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				375155CE1B1CE69400CDB8D0 /* PSTerrainMap.h */,
+				375155CF1B1CE69400CDB8D0 /* PSTerrainMap.m */,
+				3786A67B1B1BDC73001A685D /* PSTerrainDataManager.h */,
+				3786A67C1B1BDC73001A685D /* PSTerrainDataManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		377C1D7317D12D7C00AAEA79 = {
 			isa = PBXGroup;
 			children = (
@@ -132,10 +211,15 @@
 		377C1D8517D12D7C00AAEA79 /* Island Warfare */ = {
 			isa = PBXGroup;
 			children = (
+				3742BCE81B1C0FD0000438FC /* Chat */,
+				379A749C1B1BFE2D00833DA6 /* Menu Item Views */,
+				379A74861B1BF25000833DA6 /* Controls */,
 				377C1DB417D12E1D00AAEA79 /* Main Files */,
 				377C1DBB17D12E3000AAEA79 /* Map Generation */,
-				377C1DBF17D12E7C00AAEA79 /* Island Map */,
+				377C1DBF17D12E7C00AAEA79 /* Terrain */,
 				377C1DCE17D139B700AAEA79 /* Utilities */,
+				379A74981B1BF79E00833DA6 /* Categories */,
+				379A74971B1BF6B800833DA6 /* Resources */,
 				377C1D8617D12D7C00AAEA79 /* Supporting Files */,
 			);
 			path = "Island Warfare";
@@ -144,12 +228,12 @@
 		377C1D8617D12D7C00AAEA79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				377C1D8D17D12D7C00AAEA79 /* Island Warfare-Prefix.pch */,
 				377C1D9117D12D7C00AAEA79 /* Main.storyboard */,
 				377C1D9717D12D7C00AAEA79 /* Images.xcassets */,
 				377C1D8717D12D7C00AAEA79 /* Island Warfare-Info.plist */,
 				377C1D8817D12D7C00AAEA79 /* InfoPlist.strings */,
 				377C1D8B17D12D7C00AAEA79 /* main.m */,
-				377C1D8D17D12D7C00AAEA79 /* Island Warfare-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -186,26 +270,26 @@
 		377C1DBB17D12E3000AAEA79 /* Map Generation */ = {
 			isa = PBXGroup;
 			children = (
-				377C1DB517D12E2C00AAEA79 /* PSFractionalBrownianNoise.h */,
-				377C1DB617D12E2C00AAEA79 /* PSFractionalBrownianNoise.m */,
-				377C1DB717D12E2C00AAEA79 /* PSIslandMask.h */,
-				377C1DB817D12E2C00AAEA79 /* PSIslandMask.m */,
-				377C1DC317D132E800AAEA79 /* PSBlendMode.h */,
-				377C1DC417D132E800AAEA79 /* PSBlendMode.m */,
+				3786A6701B1BDB33001A685D /* PSFractionalBrownianNoise.h */,
+				3786A6711B1BDB33001A685D /* PSFractionalBrownianNoise.m */,
+				3786A6721B1BDB33001A685D /* PSIslandMask.h */,
+				3786A6731B1BDB33001A685D /* PSIslandMask.m */,
+				3786A6741B1BDB33001A685D /* PSBlendMode.h */,
+				3786A6751B1BDB33001A685D /* PSBlendMode.m */,
 			);
 			name = "Map Generation";
 			sourceTree = "<group>";
 		};
-		377C1DBF17D12E7C00AAEA79 /* Island Map */ = {
+		377C1DBF17D12E7C00AAEA79 /* Terrain */ = {
 			isa = PBXGroup;
 			children = (
-				377C1DCC17D134CA00AAEA79 /* Terrain.plist */,
-				377C1DC017D12EAA00AAEA79 /* PSIslandMapView.h */,
-				377C1DC117D12EAA00AAEA79 /* PSIslandMapView.m */,
-				377C1DC617D133D100AAEA79 /* PSIslandMapUnit.h */,
-				377C1DC717D133D100AAEA79 /* PSIslandMapUnit.m */,
+				375155D11B1CEAAD00CDB8D0 /* Terrain.plist */,
+				377C1DC017D12EAA00AAEA79 /* PSTerrainView.h */,
+				377C1DC117D12EAA00AAEA79 /* PSTerrainView.m */,
+				375155DA1B1CEC6700CDB8D0 /* Model */,
+				375155D91B1CEC5D00CDB8D0 /* Map Units */,
 			);
-			name = "Island Map";
+			name = Terrain;
 			sourceTree = "<group>";
 		};
 		377C1DCE17D139B700AAEA79 /* Utilities */ = {
@@ -215,6 +299,53 @@
 				377C1DCA17D1344700AAEA79 /* PSPropertyListDataFetcher.m */,
 			);
 			name = Utilities;
+			sourceTree = "<group>";
+		};
+		379A74861B1BF25000833DA6 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				379A74871B1BF26C00833DA6 /* PSToolbar.h */,
+				379A74881B1BF26C00833DA6 /* PSToolbar.m */,
+				379A748A1B1BF4B500833DA6 /* PSToolbarButton.h */,
+				379A748B1B1BF4B500833DA6 /* PSToolbarButton.m */,
+				378909DC1B1C0586000A1852 /* PSGridView.h */,
+				378909DD1B1C0586000A1852 /* PSGridView.m */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		379A74971B1BF6B800833DA6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				379A748D1B1BF6AB00833DA6 /* Market.png */,
+				379A748E1B1BF6AB00833DA6 /* Home.png */,
+				379A748F1B1BF6AB00833DA6 /* Leaderboard.png */,
+				379A74901B1BF6AB00833DA6 /* Settings.png */,
+				379A74911B1BF6AB00833DA6 /* Chat.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		379A74981B1BF79E00833DA6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				379A74991B1BF7B500833DA6 /* UIImage+Utilities.h */,
+				379A749A1B1BF7B500833DA6 /* UIImage+Utilities.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		379A749C1B1BFE2D00833DA6 /* Menu Item Views */ = {
+			isa = PBXGroup;
+			children = (
+				379A749D1B1BFE4800833DA6 /* PSChatViewController.h */,
+				379A749E1B1BFE4800833DA6 /* PSChatViewController.m */,
+				379A74A01B1BFE5100833DA6 /* PSSettingsViewController.h */,
+				379A74A11B1BFE5100833DA6 /* PSSettingsViewController.m */,
+				379A74A31B1BFE6200833DA6 /* PSMarketView.h */,
+				379A74A41B1BFE6200833DA6 /* PSMarketView.m */,
+			);
+			name = "Menu Item Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,9 +425,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377C1DCD17D134CA00AAEA79 /* Terrain.plist in Resources */,
+				379A74961B1BF6AB00833DA6 /* Chat.png in Resources */,
+				379A74951B1BF6AB00833DA6 /* Settings.png in Resources */,
 				377C1D9817D12D7C00AAEA79 /* Images.xcassets in Resources */,
+				379A74941B1BF6AB00833DA6 /* Leaderboard.png in Resources */,
+				379A74921B1BF6AB00833DA6 /* Market.png in Resources */,
+				379A74931B1BF6AB00833DA6 /* Home.png in Resources */,
 				377C1D8A17D12D7C00AAEA79 /* InfoPlist.strings in Resources */,
+				375155D21B1CEAAD00CDB8D0 /* Terrain.plist in Resources */,
 				377C1D9317D12D7C00AAEA79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,15 +452,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377C1DC817D133D100AAEA79 /* PSIslandMapUnit.m in Sources */,
+				379A74891B1BF26C00833DA6 /* PSToolbar.m in Sources */,
+				375155D51B1CEB5C00CDB8D0 /* PSMapUnit.m in Sources */,
+				3786A6761B1BDB33001A685D /* PSFractionalBrownianNoise.m in Sources */,
+				379A748C1B1BF4B500833DA6 /* PSToolbarButton.m in Sources */,
+				377C1DC817D133D100AAEA79 /* PSTerrainUnit.m in Sources */,
 				377C1D8C17D12D7C00AAEA79 /* main.m in Sources */,
+				379A74A21B1BFE5100833DA6 /* PSSettingsViewController.m in Sources */,
+				379A749B1B1BF7B500833DA6 /* UIImage+Utilities.m in Sources */,
+				3786A6781B1BDB33001A685D /* PSBlendMode.m in Sources */,
+				378909DE1B1C0586000A1852 /* PSGridView.m in Sources */,
+				3786A6771B1BDB33001A685D /* PSIslandMask.m in Sources */,
 				377C1DCB17D1344700AAEA79 /* PSPropertyListDataFetcher.m in Sources */,
-				377C1DC217D12EAA00AAEA79 /* PSIslandMapView.m in Sources */,
-				377C1DC517D132E800AAEA79 /* PSBlendMode.m in Sources */,
-				377C1DBA17D12E2C00AAEA79 /* PSIslandMask.m in Sources */,
+				3742BCEE1B1C1076000438FC /* PSChatTableViewCell.m in Sources */,
+				3786A67D1B1BDC73001A685D /* PSTerrainDataManager.m in Sources */,
+				3742BCEB1B1C0FFE000438FC /* PSChatMessage.m in Sources */,
+				375155D01B1CE69400CDB8D0 /* PSTerrainMap.m in Sources */,
+				379A74A51B1BFE6200833DA6 /* PSMarketView.m in Sources */,
+				377C1DC217D12EAA00AAEA79 /* PSTerrainView.m in Sources */,
 				377C1D9617D12D7C00AAEA79 /* PSViewController.m in Sources */,
-				377C1DB917D12E2C00AAEA79 /* PSFractionalBrownianNoise.m in Sources */,
 				377C1D9017D12D7C00AAEA79 /* PSAppDelegate.m in Sources */,
+				379A749F1B1BFE4800833DA6 /* PSChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +683,7 @@
 				377C1DB017D12D7D00AAEA79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377C1DB117D12D7D00AAEA79 /* Build configuration list for PBXNativeTarget "Island WarfareTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +692,7 @@
 				377C1DB317D12D7D00AAEA79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

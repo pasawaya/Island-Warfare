@@ -10,8 +10,7 @@
 
 @interface PSIslandMask : NSObject
 
-+(instancetype)maskWithCenterX: (double)x y: (double)y width: (double)width height: (double)height;
-
--(double)valueAtX: (double)x y: (double)y;
+-(id)initWithCenterX:(float)x y:(float)y width:(float)width height:(float)height;
+-(float)valueAtX:(float)x y:(float)y;
 
 @end
